@@ -1,7 +1,11 @@
  import { createSlice } from "@reduxjs/toolkit";
 
- const initialState ={
+ const initialState = {
     count : 6,
+    pra: [1,2,3,4,5,6,7,8],
+    sar: {
+        name: "Pramod Kumar Shrestha",
+    }
  }
 
  export const counterSlice = createSlice({
